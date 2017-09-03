@@ -1,0 +1,29 @@
+﻿# Fichier de localisation française de  Skype Installer
+# Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
+# Sous licence GNU GPL v2
+# Dernière mise à jour 2016/06/05
+
+LOCAL1="Quitter"
+LOCAL2="Nom"
+LOCAL3="Description"
+LOCAL4="Installateur en ligne de Skype pour Linuxr"
+LOCAL5="Il y a un problème! \nPeut-être avez-vous stoppé l'installation ou bien votre connexion internet est interrompue..\nVérifiez et essayez à nouveau."
+LOCAL6="Sortie..."
+LOCAL7="L'application a été installée avec succès!"
+LOCAL8="L'application est déjà installée!"
+LOCAL9="L'Installateur en ligne de Skype vous permet de télécharger et d'installer Skype pour Linux (paquet Debian).\n\nChoisissez une option s'il vous plaît:"
+LOCAL10="Installer Skype"
+LOCAL11="Supprimer Skype et toutes ses dépendances"
+LOCAL12="Installer le contrôle de volume de PulseAudio"
+LOCAL13="Ne rien faire, seulement quitter l'installateur"
+LOCAL14="Pavucontrol et PulseAudio sont déjà installés!"
+LOCAL15="Skype version 4.3 et supérieures ne supporte plus (Advanced Linux Sound Architecture).\nSkype fonctionne avec PulseAudio, donc vous devriez installer les paquets Pavucontrol et PulseAudio.\n\n\Voulez-vous les installer maintenant?"
+LOCAL16="Rien n'a été changé!\n\nCliquez sur OK pour quitter."
+LOCAL17="Ceci va supprimer Skype de votre système.\n\nVoulez-vous le faire maintenant?"
+LOCAL18="Skype n'a pas été supprimé."
+LOCAL19="Skype a été supprimé avec succès ou n'avait même pas été installé sur l'ordinateur."
+LOCAL20="Échec du test de la connexion internet!\n\nVous n'êtes probablement pas connecté à Internet ou bien le serveur du projet est hors-service.\n\nVérifiez et essayez à nouveau.."
+
+### .desktop file to be translated too
+# Name[fr_FR]=Installateur de Skype
+# Comment[fr_FR]=Pour télécharger et installer Skype

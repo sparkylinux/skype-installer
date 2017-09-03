@@ -1,0 +1,22 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Skype Installer
+Name[es_AR]=Instalador de Skype
+Name[fr_FR]=Installateur de Skype
+Name[ja_JP]=Skype インストーラー
+Name[pl_PL]=Skype Instalator
+Name[pt_BR]=Instalador do Skype
+Name[pt_PT]=Instalar Skype
+Comment=This lets you download and install Skype
+Comment[es_AR]=Descarga e instala Skype
+Comment[fr_FR]=Pour télécharger et installer Skype
+Comment[it_IT]=Uesto programma ti permette di scaricare ed installare Skype
+Comment[ja_JP]=Skype のダウンロード・インストールを行います
+Comment[pl_PL]=Pobierz i zainstaluj Skype
+Comment[pt_BR]=Este permite voce fazer  download e instalar o Skype
+Comment[pt_PT]=Permite que faça download e instalar o Skype
+Exec=remsu /usr/bin/sparky-skype-installer
+Icon=skype
+Categories=Network;
+Terminal=False
+Type=Application

@@ -1,0 +1,29 @@
+# Arquivo de localização para Portugues de Portugal do Skype Installer
+# Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Monday 02 February 18:56:30 WET 2016
+# Sob a Licença GNU GPL v2
+# Last update 2016/04/17 by pavroo
+
+LOCAL1="Sair"
+LOCAL2="Nome"
+LOCAL3="Descrição"
+LOCAL4="Instalador do Skype para Linux via On-line"
+LOCAL5="Alguma coisa está errada!\nProvavelmente parou a instalação ou a sua ligação à Internet está desligada.\nVerifique e tente novamente."
+LOCAL6="A Sair..."
+LOCAL7="A aplicação foi instalada com sucesso!"
+LOCAL8="A aplicação já está instalada!"
+LOCAL9="Instalado Skype On-Line permite que faça download e instalar o Skype para Linux (pacote Debian).\n\nPor favor selecione uma opção:"
+LOCAL10="Instale Skype"
+LOCAL11="Remove o Skype e todas as suas dependências"
+LOCAL12="Instale o Control de Volume PulseAudio"
+LOCAL13="Não faça nada, apenas deixe a instalação terminar"
+LOCAL14="Pavucontrol e PulseAudio já estão instalados!"
+LOCAL15="A versão Skype 4.3 e acima não suporta ALSA (Advanced Linux Sound Architecture).\nO Skype funciona com PulseAudio assim deve instalar pacotes Pavucontrol e PulseAudio.\n\n\Gostaria de instalá-los agora?"
+LOCAL16="Nada foi mudificado!\n\nClique em OK para sair."
+LOCAL17="Irá remover o Skype do seu sistema.\n\nGostaria de instalá-los agora?"
+LOCAL18="O Skype não foi removido."
+LOCAL19="O Skype foi removido com sucesso ou o pacote não foi mesmo instalado no seu sistema operativo."
+LOCAL20="Teste de ligação à Internet falhou!\n\nProvavelmente Não está ligado à Internet ou o servidor de repositório principal com problemas.\n\nConfira e tente novamente."
+
+### Arquivo a ser traduzido também .desktop
+# Name[pt_PT]=Instalar Skype
+# Comment[pt_PT]=Permite que faça download e instalar o Skype

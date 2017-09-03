@@ -1,0 +1,30 @@
+# Japanese localization file for Skype Installer
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
+# Under the GNU GPL v2
+# Last update 2017/01/06
+# Translated to Japanese by BALLOON a.k.a. Fu-sen.
+
+LOCAL1="終了"
+LOCAL2="名前"
+LOCAL3="説明"
+LOCAL4="Skype Linux オンラインインストーラー"
+LOCAL5="何か問題があります！\nインストールを停止しているか、インターネット接続が切断されています。\n確認の上、再度行って下さい。"
+LOCAL6="終了します..."
+LOCAL7="アプリケーションをインストールしました！"
+LOCAL8="アプリケーションはすでにインストールされています！"
+LOCAL9="Skypeオンラインインストーラを使用し、Linux 用 Skype（Debian パッケージ）のダウンロード・インストールすることができます。\n\nオプションを選んで下さい:"
+LOCAL10="Skype のインストール"
+LOCAL11="Skype と依存関係する全てを削除"
+LOCAL12="PulseAudio 音量コントロールのインストール"
+LOCAL13="何もしない。単にインストーラを残します"
+LOCAL14="Pavucontrol・PulseAudio はすでにインストールされています！"
+LOCAL15="Skype バージョン 4.3 以降は、ALSA（上の Linux サウンドアーキテクチャ）をサポートしていません。\nPavucontrol と PulseAudio パッケージをインストールする必要があります。Skype は PulseAudio に対応しています。\n\n\インストールを行いますか？"
+LOCAL16="何も変更されていません！\n\nOK のクリックで終了します。"
+LOCAL17="システムから Skype を削除します。\n\n行ってよろしいですか？"
+LOCAL18="Skype は削除しませんでした。"
+LOCAL19="Skypeは正常に削除されたか、コンピュータにインストールされていません。"
+LOCAL20="インターネットへ接続できません！\n\nインターネットに接続されていないか、メインのリポジトリサーバがダウンしています。\n\n確認の上、再試行してください。"
+
+### .desktop file to be translated too
+# Name[ja_JP]=Skype インストーラー
+# Comment[ja_JP]=Skype のダウンロード・インストールを行います

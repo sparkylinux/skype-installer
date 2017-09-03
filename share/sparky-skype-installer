@@ -1,0 +1,1 @@
+?package(skype-installer):needs="X11" section="Applications/Network"        title="Skype Installer" command="remsu /usr/bin/sparky-skype-installer" icon="skype"

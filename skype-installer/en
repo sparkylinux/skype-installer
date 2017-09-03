@@ -1,0 +1,29 @@
+# English localization file for Skype Installer
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
+# Under the GNU GPL v2
+# Last update 2016/04/17 by pavroo
+
+LOCAL1="Exit"
+LOCAL2="Name"
+LOCAL3="Description"
+LOCAL4="Skype for Linux On-Line Installer"
+LOCAL5="Something is wrong!\nProbably you have stopped the installation or your internet connection is broken.\nCheck it out and try again."
+LOCAL6="Exiting..."
+LOCAL7="The application has been installed successfully!"
+LOCAL8="The application is already installed!"
+LOCAL9="Skype On-Line Installer lets you download and install Skype for Linux (Debian package).\n\nPlease select an option:"
+LOCAL10="Install Skype"
+LOCAL11="Remove Skype and all it's dependencies"
+LOCAL12="Install PulseAudio Volume Control"
+LOCAL13="Do nothing, just leave the installer"
+LOCAL14="Pavucontrol and PulseAudio are already installed!"
+LOCAL15="Skype version 4.3 and above does not support ALSA (Advanced Linux Sound Architecture) any more.\nSkype works with PulseAudio so you should install Pavucontrol and PulseAudio packages.\n\n\Would you like to install them now?"
+LOCAL16="Nothing has been changed!\n\nClick OK to quit."
+LOCAL17="This will remove Skype from your system.\n\nWould you like to do it now?"
+LOCAL18="Skype has been NOT removed."
+LOCAL19="Skype has been successfully removed or has been even not installed on your computer."
+LOCAL20="Internet connection test failed!\n\nProbably you are NOT connected to the Internet or the main repository server is down.\n\nCheck it out and try again."
+
+### .desktop file to be translated too
+# Name[en_US]=Skype Installer
+# Comment[en_US]=This lets you download and install Skype

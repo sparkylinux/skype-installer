@@ -1,0 +1,31 @@
+# Arquivo de localização para o Português do Brasil do  Instalador do
+ Skype
+# Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
+# Sob a licença GNU GPL v2
+# Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/10
+# Last update 2016/04/17 by pavroo
+
+LOCAL1="Saída"
+LOCAL2="Nome"
+LOCAL3="Descrição"
+LOCAL4="Instalador On-Line do  Skype para Linux"
+LOCAL5="Alguma coisa está errada!\nProvavelmente o andamento de sua  instalação parou ou sua conexão de  internet tenha caído. \nVerifique este problema e tente novamente."
+LOCAL6="Saindo..."
+LOCAL7="A aplicação foi  instalada com sucesso! "
+LOCAL8="Esta aplicação já está  instalada!"
+LOCAL9="Instalador On-Line do  Skype permite voce fazer download e instalar o Skype para Linux (via pacote Debian).\n\nPor gentileza selecione uma opção:"
+LOCAL10="Instale o Skype"
+LOCAL11="Remova o Skype e todas as suas  dependências"
+LOCAL12="Instale o Controle de  Volume PulseAudio"
+LOCAL13="Não faça nada, apenas deixe o  instalador"
+LOCAL14="Os aplicativos Pavucontrol e PulseAudio já estão  instalados!"
+LOCAL15="A versão 4.3 do Skype e acima não suportam ALSA (Advanced Linux Sound Architecture) e nenhuma mais.\nSkype trabalha com o PulseAudio então voce deveria instalar os  pacotes Pavucontrol e  PulseAudio.\n\n\Voce gostaria de instalar estes pacotes (Pavucontrol e  PulseAudio) agora?"
+LOCAL16="Nada foi modificado!\n\nClick OK para sair."
+LOCAL17="Esta opção removerá o Skype de seu sistema.\n\nVoce gostaria de fazer isto agora?"
+LOCAL18="O Skype  NÃO foi  removido."
+LOCAL19="O Skype foi  removido com sucesso ou mesmo este não estava instalado como pacote em seu computador."
+LOCAL20="Teste da conexão de Internet falhou!\n\nProvavelmente voce não está conectado na Internet ou o repositório do servidor principal caiu ou está fora do ar.\n\nVerifique isto e tente novamente."
+
+### .desktop file to be translated too
+# Name[pt_BR]=Instalador do Skype
+# Comment[pt_BR]=Este permite voce fazer  download e instalar o Skype

@@ -1,0 +1,29 @@
+# File di localizzazione italiano per Skype Installer
+# Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 10/11/2015
+# Rilasciato sotto licenza GNU GPL v2
+# Last update 2016/04/17 by pavroo
+
+LOCAL1="Esci"
+LOCAL2="Nome"
+LOCAL3="Descrizione"
+LOCAL4="Installer Online di Skyper per Linux"
+LOCAL5="Qualcosa è andato storto!\nProbabilmente hai interrotto l'installazione o la tua connessione è andata giù.\nControlla e prova di nuovo."
+LOCAL6="Sto uscendo..."
+LOCAL7="L'applicazione è stata installata correttamente!"
+LOCAL8="L'applicazione è già installata!"
+LOCAL9="Skype On-Line Installer ti permette di scaricare ed installare Skype rper Linux (usando pacchetti Debian).\n\nPrego effettua una scelta:"
+LOCAL10="Installa Skype"
+LOCAL11="Rimuovi Skype e tutte le sue dipendenze"
+LOCAL12="Installa PulseAudio Volume Control"
+LOCAL13="Non far nulla, esci dall'installer"
+LOCAL14="Pavucontrol e PulseAudio sono già installati!"
+LOCAL15="Le versioni di Skype dalla 4.3 in poi, non supportano più ALSA (Advanced Linux Sound Architecture).\nSkype lavora con PulseAudio quindi dovresti installare i pacchetti Pavucontrol e PulseAudio.\n\n\Li vuoi installare adesso?"
+LOCAL16="Nulla è stato cambiato!\n\nClicca su OK per uscire."
+LOCAL17="Questo rimuoverà Skype dal tuo sistema.\n\nSei sicuro di volerlo fare adesso?"
+LOCAL18="Skype NON è stato rimosso."
+LOCAL19="Skype è stato rimosso correttamente o non è nemmeno stato installato sul tuo computer."
+LOCAL20="Test della connessione internet falito!\n\nProbabilemnte NON sei connesso ad internet od il repository principale è ofline.\n\nControlla e prova di nuovo."
+
+### .desktop file to be translated too
+# Name[it_IT]=Skype Installer
+# Comment[it_IT]=Uesto programma ti permette di scaricare ed installare skype
