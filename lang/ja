@@ -1,9 +1,8 @@
 # Japanese localization file for Skype Installer
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
 # Under the GNU GPL v2
-# Last update 2017/01/06
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-
+# Last update 2017/11/08 by pavroo
 LOCAL1="終了"
 LOCAL2="名前"
 LOCAL3="説明"
@@ -24,7 +23,7 @@ LOCAL17="システムから Skype を削除します。\n\n行ってよろしい
 LOCAL18="Skype は削除しませんでした。"
 LOCAL19="Skypeは正常に削除されたか、コンピュータにインストールされていません。"
 LOCAL20="インターネットへ接続できません！\n\nインターネットに接続されていないか、メインのリポジトリサーバがダウンしています。\n\n確認の上、再試行してください。"
-
+LOCAL21="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated too
 # Name[ja_JP]=Skype インストーラー
 # Comment[ja_JP]=Skype のダウンロード・インストールを行います

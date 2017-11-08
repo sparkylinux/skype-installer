@@ -1,8 +1,7 @@
 # File di localizzazione italiano per Skype Installer
 # Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 10/11/2015
 # Rilasciato sotto licenza GNU GPL v2
-# Last update 2016/04/17 by pavroo
-
+# Last update 2017/11/08 by pavroo
 LOCAL1="Esci"
 LOCAL2="Nome"
 LOCAL3="Descrizione"
@@ -23,7 +22,7 @@ LOCAL17="Questo rimuoverà Skype dal tuo sistema.\n\nSei sicuro di volerlo fare 
 LOCAL18="Skype NON è stato rimosso."
 LOCAL19="Skype è stato rimosso correttamente o non è nemmeno stato installato sul tuo computer."
 LOCAL20="Test della connessione internet falito!\n\nProbabilemnte NON sei connesso ad internet od il repository principale è ofline.\n\nControlla e prova di nuovo."
-
+LOCAL21="Non può essere installato sulla tua versione di Debian/Sparky."
 ### .desktop file to be translated too
 # Name[it_IT]=Skype Installer
 # Comment[it_IT]=Uesto programma ti permette di scaricare ed installare skype

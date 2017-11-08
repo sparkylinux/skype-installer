@@ -26,5 +26,5 @@ else
 	if [ ! -d /usr/share/sparky/skype-installer ]; then
 		mkdir -p /usr/share/sparky/skype-installer
 	fi
-	cp skype-installer/* /usr/share/sparky/skype-installer/
+	cp lang/* /usr/share/sparky/skype-installer/
 fi

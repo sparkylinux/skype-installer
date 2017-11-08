@@ -1,8 +1,7 @@
 # Archivo de localización en español para Skype Installer
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
 # Bajo la licencia GNU GPL v2
-# Last update 2016/04/17 by pavroo
-
+# Last update 2017/11/08 by pavroo
 LOCAL1="Salir"
 LOCAL2="Nombre"
 LOCAL3="Descripción"
@@ -23,7 +22,7 @@ LOCAL17="Esto elimina a Skype de su sistema.\n\n¿Quiere hacerlo ahora?"
 LOCAL18="No se eliminó Skype."
 LOCAL19="Se eliminó correctamente a Skype o nunca estuvo instalado en su computadora."
 LOCAL20="ĄFalló la prueba de conexión a Internet!\n\nProbablemente Ud NO esté conectado a Internet o el servidor principal del repositorio se haya caído.\n\nVerifique esto e inténtelo nuevamente."
-
+LOCAL21="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated too
 # Name[es_AR]=Instalador de Skype
 # Comment[es_AR]=Descarga e instala Skype

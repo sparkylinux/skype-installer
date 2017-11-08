@@ -3,8 +3,7 @@
 # Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/10
 # Sob a licença GNU GPL v2
 # Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/10
-# Last update 2016/04/17 by pavroo
-
+# Last update 2017/11/08 by pavroo
 LOCAL1="Saída"
 LOCAL2="Nome"
 LOCAL3="Descrição"
@@ -25,7 +24,7 @@ LOCAL17="Esta opção removerá o Skype de seu sistema.\n\nVoce gostaria de faze
 LOCAL18="O Skype  NÃO foi  removido."
 LOCAL19="O Skype foi  removido com sucesso ou mesmo este não estava instalado como pacote em seu computador."
 LOCAL20="Teste da conexão de Internet falhou!\n\nProvavelmente voce não está conectado na Internet ou o repositório do servidor principal caiu ou está fora do ar.\n\nVerifique isto e tente novamente."
-
+LOCAL21="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated too
 # Name[pt_BR]=Instalador do Skype
 # Comment[pt_BR]=Este permite voce fazer  download e instalar o Skype

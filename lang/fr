@@ -1,8 +1,7 @@
 ﻿# Fichier de localisation française de  Skype Installer
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Dernière mise à jour 2016/06/05
-
+# Last update 2017/11/08 by pavroo
 LOCAL1="Quitter"
 LOCAL2="Nom"
 LOCAL3="Description"
@@ -23,7 +22,7 @@ LOCAL17="Ceci va supprimer Skype de votre système.\n\nVoulez-vous le faire main
 LOCAL18="Skype n'a pas été supprimé."
 LOCAL19="Skype a été supprimé avec succès ou n'avait même pas été installé sur l'ordinateur."
 LOCAL20="Échec du test de la connexion internet!\n\nVous n'êtes probablement pas connecté à Internet ou bien le serveur du projet est hors-service.\n\nVérifiez et essayez à nouveau.."
-
+LOCAL21="It can not be installed on your version of Debian/Sparky."
 ### .desktop file to be translated too
 # Name[fr_FR]=Installateur de Skype
 # Comment[fr_FR]=Pour télécharger et installer Skype

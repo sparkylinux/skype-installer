@@ -1,8 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Skype Installer
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Monday 02 February 18:56:30 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2016/04/17 by pavroo
-
+# Last update 2017/11/08 by pavroo
 LOCAL1="Sair"
 LOCAL2="Nome"
 LOCAL3="Descrição"
@@ -23,7 +22,7 @@ LOCAL17="Irá remover o Skype do seu sistema.\n\nGostaria de instalá-los agora?
 LOCAL18="O Skype não foi removido."
 LOCAL19="O Skype foi removido com sucesso ou o pacote não foi mesmo instalado no seu sistema operativo."
 LOCAL20="Teste de ligação à Internet falhou!\n\nProvavelmente Não está ligado à Internet ou o servidor de repositório principal com problemas.\n\nConfira e tente novamente."
-
+LOCAL21="It can not be installed on your version of Debian/Sparky."
 ### Arquivo a ser traduzido também .desktop
 # Name[pt_PT]=Instalar Skype
 # Comment[pt_PT]=Permite que faça download e instalar o Skype
