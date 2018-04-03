@@ -3,8 +3,8 @@
 # Skype On-Line Installer is a script which can download and install Skype for Linux (Debian package)
 # and can install PulseAudio Volume Control (as an option) - Skype 4.3 does not support ALSA.
 # Created by Paweł "pavroo" Pijanowski 2015/01/07
-# Copyright 2015, 2016, 2017 under the GNU GPL2 License
-# Last updated 2017/11/08
+# Copyright 2015-2018 under the GNU GPL2 License
+# Last updated 2018/04/01
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/skype-installer"
@@ -27,9 +27,8 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
-    /usr/bin/remsu $0 &
+	/usr/bin/remsu $0 &
 fi
 
 DIALOG="yad --window-icon=skype --width=450 --height=200 --center"
@@ -43,10 +42,11 @@ TITLETEXT="$LOCAL4"
 WORKDIR="/tmp/skype-tmp"
 ARCH=`uname -r | grep "amd64"`
 
-if [ -f /opt/sparky/sparky-xterm ]; then
-. /opt/sparky/sparky-xterm
+if [ -f /usr/bin/sparky-xterm ];then
+	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
-SPARKYXTERM="x-terminal-emulator"
+	echo "sparky-xterm is missing... Exiting..."
+	exit 1
 fi
 
 TEXTBROKEN="$LOCAL5\n\n$LOCAL6"
@@ -74,73 +74,73 @@ Exit "$LOCAL13"`
 if [ "$?" = "0" ]; then
 	CHOICE=`echo $CHOICES | cut -d "|" -f 1`
 else
-	exit 0
+	exit 1
 fi
 
 if [ "$CHOICE" = "Install" ]; then
-	installmenu
+	install64menu
 elif [ "$CHOICE" = "Remove" ]; then
 	remmenu
 elif [ "$CHOICE" = "Pavucontrol" ]; then
 	pavumenu
 elif [ "$CHOICE" = "Exit" ]; then
-	exit 0
-else
-	exit 0
-fi
-}
-
-installmenu () {
-if [ "$ARCH" = "" ]; then
-	install32menu
-else
-	install64menu
-fi
-}
-
-install32menu () {
-# check is skype installed
-if [ -f /usr/bin/skype ]; then
-	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTSTOP"
-	mainmenu
-fi
-
-if [ "$PINGTEST" = "" ]; then
-	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL20"
 	exit 1
-
 else
-	# download skype.deb package from the project server
-	rm -rf $WORKDIR
-	mkdir -p $WORKDIR
-	cd $WORKDIR
-	$SPARKYXTERM -e "wget -O $PACK32 $SERVER32"
+	exit 1
 fi
+}
+
+#installmenu () {
+#if [ "$ARCH" = "" ]; then
+#	install32menu
+#else
+#	install64menu
+#fi
+#}
+
+#install32menu () {
+# check is skype installed
+#if [ -f /usr/bin/skype ]; then
+#	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTSTOP"
+#	mainmenu
+#fi
+
+#if [ "$PINGTEST" = "" ]; then
+#	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL20"
+#	exit 1
+
+#else
+	# download skype.deb package from the project server
+#	rm -rf $WORKDIR
+#	mkdir -p $WORKDIR
+#	cd $WORKDIR
+#	$SPARKYXTERM "wget -O $PACK32 $SERVER32"
+#fi
 
 # install skype
-PACKTEST=`ls $WORKDIR | grep 'skype' | awk '{print $1}'`
-if [ -f $WORKDIR/*.deb ]; then
-	cd $WORKDIR
-	$SPARKYXTERM -e "dpkg -i $PACK32"
-	$SPARKYXTERM -e "apt-get install -f -y"
-else
-	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTBROKEN"
-	mainmenu
-fi
+#PACKTEST=`ls $WORKDIR | grep 'skype' | awk '{print $1}'`
+#if [ -f $WORKDIR/*.deb ]; then
+#	cd $WORKDIR
+#	$SPARKYXTERM "dpkg -i $PACK32"
+#	$SPARKYXTERM "apt-get install -f -y"
+#else
+#	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTBROKEN"
+#	mainmenu
+#fi
 
 # check has skype been installed
-if [ -f /usr/bin/skype ]; then
-	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTDONE"
-	mainmenu
+#if [ -f /usr/bin/skype ]; then
+#	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTDONE"
+#	mainmenu
 
-else
-	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTBROKEN"
-	mainmenu
-fi
+#else
+#	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTBROKEN"
+#	mainmenu
+#fi
 
-mainmenu
+#mainmenu
 
-}
+#}
 
 install64menu () {
 # check is skype installed
@@ -158,15 +158,15 @@ else
 	rm -rf $WORKDIR
 	mkdir -p $WORKDIR
 	cd $WORKDIR
-	$SPARKYXTERM -e "wget $SERVER64/$PACK64"
+	$SPARKYXTERM "wget $SERVER64/$PACK64"
 fi
 
 # install skype
 PACKTEST=`ls $WORKDIR | grep 'skype' | awk '{print $1}'`
 if [ -f $WORKDIR/$PACK64 ]; then
 	cd $WORKDIR
-	$SPARKYXTERM -e "dpkg -i $PACK64"
-	$SPARKYXTERM -e "apt-get install -f -y"
+	$SPARKYXTERM "dpkg -i $PACK64"
+	$SPARKYXTERM "apt-get install -f -y"
 
 else
 	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$TEXTBROKEN"
@@ -207,7 +207,7 @@ if [ "$PINGTEST" = "" ]; then
 	exit 1
 
 else
-	$SPARKYXTERM -e "apt-get install pulseaudio pavucontrol -y"
+	$SPARKYXTERM "apt-get install pulseaudio pavucontrol -y"
 
 fi
 
@@ -236,9 +236,9 @@ if [ -f /usr/bin/skype ] || [ -f /usr/bin/skypeforlinux ]; then
 
 	else
 		# uninstall skype and all its dependencies
-		$SPARKYXTERM -e "apt-get remove skype -y"
-		$SPARKYXTERM -e "apt-get remove skypeforlinux -y"
-		$SPARKYXTERM -e "apt-get autoremove -y"
+		$SPARKYXTERM "apt-get remove skype -y"
+		$SPARKYXTERM "apt-get remove skypeforlinux -y"
+		$SPARKYXTERM "apt-get autoremove -y"
 	fi
 fi
 
